@@ -1,12 +1,11 @@
-import Head from 'next/head'
+import styles from './index.module.scss';
 
 function IndexPage() {
   return (
     <main>
-      <Head>
-        <title>Home page</title>
-      </Head>
-      <h1>List of posts</h1>
+      <div className={styles.container}>
+        <div className={styles.card} />
+      </div>
     </main>
   )
 }
