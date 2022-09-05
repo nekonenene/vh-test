@@ -1,3 +1,4 @@
+import 'ress';
 import './global.scss';
 
 export default function MyApp({ Component, pageProps }) {
