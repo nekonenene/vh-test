@@ -5,7 +5,10 @@ function IndexPage() {
     <main>
       <div className={styles.container}>
         <div className={styles.card}>
-          <h1 className={styles.modalTitle}>こんにちは</h1>
+          <div className={styles.cardContentContainer}>
+            <h1 className={styles.modalTitle}>ようこそ</h1>
+            <button className={styles.bottomButton}>次に進む</button>
+          </div>
         </div>
       </div>
     </main>
