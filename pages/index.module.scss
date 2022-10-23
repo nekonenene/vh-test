@@ -6,16 +6,16 @@
 .openModalButton {
   position: fixed;
   top: calc(50% - 4rem);
-  left: 25%;
-  width: 50%;
+  left: calc(50% - 8rem);
+  width: 16rem;
   height: 8rem;
-  padding: 2rem 8rem;
+  padding: 1rem;
   border: 2px solid #000000;
   border-radius: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: rgb(246, 246, 238);
-	letter-spacing: 1rem;
-	text-indent: 1rem;
+	letter-spacing: 0.5rem;
+	text-indent: 0.5rem;
   cursor: pointer;
 }
 
@@ -33,13 +33,14 @@
   width: 100%;
   height: 100vh;
   background-color: rgba($color: #000000, $alpha: 0.5);
+  z-index: 9999;
 }
 
 .card {
   margin: auto;
   width: 80%;
   max-width: 600px;
-  height: 85vh;
+  height: 90vh;
   background-color: white;
   border-radius: 20px;
 }
@@ -63,11 +64,11 @@
 
 .bottomButton {
   margin: 2rem auto;
-  padding: 1rem 2rem;
+  padding: 1rem;
   width: 90%;
   background-color: rgb(26, 149, 149);
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
   letter-spacing: 8px;
   line-height: 1.5;
